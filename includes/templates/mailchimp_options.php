@@ -23,7 +23,7 @@
                             <?php endforeach; ?>
                         </select>
                     <?php else: ?>
-                        <?php _e( 'No lists found. Start by adding one on MailChimp website.','scrm_mc' )?>
+                        <?php _e( 'No api key or lists found. Start by adding one on MailChimp website.','scrm_mc' )?>
                     <?php endif; ?>
                 </p>
             </div>
@@ -50,12 +50,12 @@
                 <?php _e( 'If you experience timeouts or the synchronization process takes too long, try limiting the number of users.', 'scrm_mc' )?>
                 <br />
                 <label for="scrm_mc_start">
-                    <?php _e( 'Start with user', 'scrm_mc' )?>:
+                    <strong><?php _e( 'Start with user', 'scrm_mc' )?>:</strong>
                 </label>
                     <input type="text" name="scrm_mc_start" id="scrm_mc_start" value="0" style="width: 50px;" />
                 <span style="font-size: 200%">&rarr;</span>
                 <label for="scrm_mc_end">
-                    <?php _e( 'End with user', 'scrm_mc' )?>:
+                    <strong><?php _e( 'End with user', 'scrm_mc' )?>:</strong>
                 </label>
                     <input type="text" name="scrm_mc_end" id="scrm_mc_end" value="<?php echo $counted_users; ?>" style="width: 50px;" />
             </p>
