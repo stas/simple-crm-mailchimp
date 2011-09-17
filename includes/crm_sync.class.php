@@ -1,6 +1,4 @@
 <?php
-require_once 'MCAPI.class.php';
-
 /**
  * Class extends user profile fields
  */

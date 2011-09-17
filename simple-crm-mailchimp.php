@@ -11,6 +11,8 @@ Author URI: http://stas.nerd.ro/
 define( 'SCRM_MC_ROOT', dirname( __FILE__ ) );
 define( 'SCRM_MC_WEB_ROOT', WP_PLUGIN_URL . '/' . basename( SCRM_MC_ROOT ) );
 
+if ( !class_exists( 'MCAPI' ) )
+    require_once SCRM_MC_ROOT . '/includes/MCAPI.class.php';
 require_once SCRM_MC_ROOT . '/includes/crm_sync.class.php';
 
 /**
