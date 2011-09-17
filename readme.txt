@@ -2,8 +2,8 @@
 Contributors: sushkov
 Tags: crm, users, profile, fields, mailchimp, vivanista
 Requires at least: WordPress 3.0
-Tested up to: WordPress 3.1.1
-Stable tag: 0.1
+Tested up to: WordPress 3.2.1
+Stable tag: 0.2
 Donate link: http://stas.nerd.ro/pub/donate/
 
 Adds MailChimp integration to Simple CRM
@@ -23,6 +23,9 @@ Please follow the [standard installation procedure for WordPress plugins](http:/
 Before asking questions, please check the [video](http://stas.github.com/simple-crm).
 
 == Changelog ==
+
+= 0.2 =
+* Fixed class include fatal error when MCAPI already declared. Props [fwchapman](http://wordpress.org/support/topic/plugin-simple-crm-mailchimp-addon-plugin-activation-causes-fatal-error)
 
 = 0.1 =
 * First stable release.

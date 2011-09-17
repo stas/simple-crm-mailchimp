@@ -4,7 +4,7 @@ Plugin Name: Simple CRM MailChimp Addon
 Plugin URI: http://wordpress.org/extend/plugins/simple-crm-mailchimp/
 Description: Add MailChimp Synchronization to Simple CRM
 Author: Stas Sușcov
-Version: 0.1
+Version: 0.2
 Author URI: http://stas.nerd.ro/
 */
 
